@@ -1,0 +1,6 @@
+forge create --rpc-url <rpcurl> \
+    --constructor-args "arg1" "arg2" \
+    --private-key <private_key> \
+    --etherscan-api-key <etherscan_api_key> \
+    --verify \
+    src/My721.sol:My721
